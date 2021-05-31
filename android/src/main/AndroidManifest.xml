@@ -1,0 +1,11 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.portauthority">
+          <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Needed to read the SSID on Android 8-9. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Needed to read the SSID on Android 10+. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
+  
